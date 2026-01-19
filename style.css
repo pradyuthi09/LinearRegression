@@ -1,0 +1,80 @@
+.stApp{
+    background:linear-gradient(
+      135deg,
+      #7fc02b 0%,
+      #dd8fc3 50%,
+      hsl(192, 48%, 73%) 100%
+    );
+
+    min-height:100vh;
+    font-family:'Segoe UI',sans-serif;
+
+}
+
+.card{
+    background-color:#b6498c;
+    border-radius:16px;
+    box-shadow:0  8px 20px rgba(0,0,0,0.08);
+    padding:25px;
+    margin-bottom:25px;
+}
+
+h1,h2,h3{
+    color:#0f172a;}
+
+/* Metric box styling */
+div[data-testid="metric-container"]{
+    background-color:#55c4dd;
+    border-radius:14px;
+    padding:15px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.5);
+    margin-bottom:20px;
+}
+
+
+.prediction-box{
+   background:linear-gradient(
+      135deg,
+      #8590f5 50%,
+      #1361af 100%,
+      #1f3bd4 100%
+    );
+    padding:22px;
+    border-radius:14px;
+    text-align:center;
+    font-size: 22px;
+    font-weight: bold;
+    color:#14532d;
+    margin-top: 15px;
+}
+
+.title{
+    background: linear-gradient(
+        135deg,
+        #1e3c72 0%,
+        #2a5298 50%,
+        #00c6ff 100%
+    );
+    padding: 25px;
+    border-radius: 18px;
+    text-align: center;
+    margin-bottom: 25px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+}
+
+/* Heading text */
+.title h1{
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+/* Subtitle text */
+.title p{
+    color: #e0f2fe;
+    font-size: 18px;
+    margin: 0;
+}
+
+
